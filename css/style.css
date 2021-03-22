@@ -1,0 +1,429 @@
+/* font-family: 'Oranienbaum' ,serif; заголовок*/
+/* font-family: 'Roboto' ,sans-serif; текст*/
+
+h1, h2, h3, h4, h5, h6, p, li {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+button:hover {
+    background-color: red;
+}
+button:focus {
+    background-color: orangered;
+}
+button:active {
+    background-color: lightcoral;
+}
+
+html {
+    width: 1920px;
+    margin: auto;
+    padding: 0;
+    background-image: url(../img/bg-main.png);
+    background-color: #000000;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: auto;
+    padding: 0;
+    width: 1280px;
+    font-size: 16px;
+}
+
+
+/* header start */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    width: 100%;
+    height: 821px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+}
+
+ol {
+    padding-left: 10px;
+    padding-right: 25px;
+    color: white;
+    font-family: 'Oranienbaum', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+ol:first-child {
+    padding-left: 2px;
+}
+
+.social {
+    margin-top: 15px;
+    height: 25px;
+    overflow: hidden;
+}
+
+.number {
+    color: white;
+    padding-right: 20px;
+}
+
+.number p:first-child {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.name {
+    position: absolute;
+    top: 185px;
+    left: 2px;
+}
+
+.name h1 {
+    margin-top: 50px;
+    color: white;
+    font-family: 'Oranienbaum', serif;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.name p {
+    color: rgb(138, 118, 80);
+    font-family: 'Oranienbaum', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+/* header end */
+
+
+/* main start */
+/* section promo start */
+.promo {
+    display: table;
+    width: 100%;
+    background-color: #fff;
+}
+
+.promo h2 {
+    padding-top: 40px;
+    font-family: 'Oranienbaum', serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.promo p {
+    margin: auto;
+    margin-top: 25px;
+    width: 1065px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.promo img {
+    width: 100%;
+}
+
+.promo p:last-child {
+    margin: auto;
+    margin-top: 0;
+   
+    color: grey;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: inherit;
+}
+/* section promo end */
+
+
+/* section going start */
+.going {
+    padding: 5px;
+    padding-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.going-box {
+    margin: auto;
+    width: 60%;
+}
+
+.going-box h2 {
+    font-size: 36px;
+    font-family: 'Oranienbaum', serif;
+    text-transform: uppercase;
+}
+
+.going-box .color-gray {
+    margin: 20px 0 20px 0;
+    font-size: 20px;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+}
+
+.going-box .text {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+table {
+    margin: auto;
+    width: 768px;
+    border: 1px solid orange;
+    background-color: yellow;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+}
+
+td {
+    border: 1px solid orange;
+    margin: 0;
+    padding: 10px;
+    width: 128px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.orange {
+    background-color: rgb(255, 196, 0);
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-align {
+    text-align: center;
+}
+
+.text-low {
+    padding-top: 10px;
+    font-size: 18px;
+    color: gray;
+}
+
+.flex-box p {
+    margin: 0 5px;
+    padding: 0 5px;
+    border: 1px solid #000;
+    color: #000;
+}
+
+.btn-table {
+    width: 130px;
+    height: 35px;
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: white;
+}
+
+.image-book {
+    margin-left: 50px;
+}
+/* section going end */
+
+
+/* section services start */
+.services {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+
+.services-head {
+    padding: 30px 0;
+}
+
+.services-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 50px;
+    padding: 30px;
+    width: 30%;
+    border: 1px solid gray;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px gray;
+}
+
+.card p {
+    padding: 5px 0;
+}
+
+.card-head {
+    text-align: center;
+    font-weight: 600;
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.card-time {
+    color: gray;
+}
+
+.card-question {
+    margin-top: 15px;
+    color: gray;
+    width: 70%;
+    line-height: 26px;
+}
+
+.card-question-item {
+    width: 70%;
+    line-height: 26px;
+}
+
+.card-price {
+    margin-top: 20px;
+    color: gray;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: line-through;
+}
+
+.card-price-new {
+    text-align: center;
+    font-size: 28px;
+}
+
+.card-btn {
+    margin-top: 30px;
+    width: 244px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(236, 34, 61);
+    color: white;
+    text-transform: uppercase;
+}
+/* section services end */
+
+
+/* section how is going start */
+.how-is-going {
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.how-is-going-box {
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    width: 70%;
+}
+
+.how-is-going h2 {
+    margin-bottom: 40px;
+    margin-left: 50px;
+    font-size: 60px;
+    font-family: 'Oranienbaum' ,serif;
+}
+
+.how-is-going-item {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.how-is-going-item img {
+    width: 300px;
+}
+
+.how-is-going-item p {
+    width: 427px;
+    font-size: 28px;
+    color: gray;
+}
+/* section how is going end */
+/* main end */
+
+
+/* footer start */
+footer {
+    margin-top: 30px;
+    color: white;
+}
+
+.footer-btn {
+    /* margin-top: 10px; */
+    margin-left: 550px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    background-color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+footer div {
+    margin-top: 50px;
+}
+
+footer div p {
+    color: gray;
+    padding-top: 7px;
+}
+/* footer send */
